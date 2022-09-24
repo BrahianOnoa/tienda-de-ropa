@@ -6,9 +6,12 @@ function NavBar() {
     <nav>
       <ul>
         <a href="#">
-          <li>Cursos Programación</li>
+          <li>Colección ropa de verano</li>
         </a>
-        <li>Cursos Diseño</li>
+        <li>Pantalones</li>
+        <li>Zapatos</li>
+        <li>Remeras y camisas</li>
+        <li>Accesorios</li>
       </ul>
       <CartWidget />
     </nav>

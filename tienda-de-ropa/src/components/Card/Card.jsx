@@ -13,10 +13,10 @@ export default function Card(props) {
         <div className="card-detail">
           <h2>{props.title}</h2>
           <p>{props.detail}</p>
-          <h4>$ {props.price}</h4>
+          <h4> € {props.price}</h4>
         </div>
 
-        <Button otraprop="otraprop">{`Apredende ${props.title}`}</Button>
+        <Button otraprop="otraprop">{`Comprar ${props.title}`}</Button>
       </div>
       <a href="/">Ver más</a>
     </>
