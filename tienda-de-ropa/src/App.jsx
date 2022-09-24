@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Componente
 function App() {
-  let misEstilos = { backgroundColor: "lightblue" };
+  let misEstilos = { backgroundColor: "lightgray" };
 
   return (
     <div style={misEstilos}>
       <CartWidget />
-      <ItemListContainer greeting="Bienvenidos a nuestra plataforma de cursos" />
+      <ItemListContainer greeting="Bienvenidos a la tienda Arturo Calle" />
     </div>
   );
 }
