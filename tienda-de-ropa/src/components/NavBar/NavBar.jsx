@@ -3,7 +3,7 @@ import CartWidget from "./CartWidget";
 
 function NavBar() {
   return (
-    <nav>
+<nav>
       <ul>
         <a href="#">
           <li>Colección ropa de verano</li>
@@ -14,8 +14,8 @@ function NavBar() {
         <li>Accesorios</li>
       </ul>
       <CartWidget />
-    </nav>
+    </nav> 
   );
 }
-// export NavBar -> Importarlo desde App -> renderizarlo
+
 export default NavBar;

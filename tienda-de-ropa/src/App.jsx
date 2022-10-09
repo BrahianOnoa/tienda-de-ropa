@@ -1,6 +1,7 @@
 import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 import CartWidget from "./components/NavBar/CartWidget";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // Componente
 function App() {
